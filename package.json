@@ -10,15 +10,22 @@
     "pages:build": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^0.9.5",
+    "@prisma/adapter-neon": "^5.19.1",
+    "@prisma/client": "^5.19.1",
+    "@types/ws": "^8.5.12",
     "next": "14.2.8",
+    "prisma": "^5.19.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "bufferutil": "^4.0.8",
     "eslint": "^8",
     "eslint-config-next": "14.2.8",
     "typescript": "^5"
